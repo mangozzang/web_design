@@ -152,7 +152,10 @@ nav > ul > li:hover > .sub-menu {
 .subject > .container > .img-box {
   margin-top: 40px; width: 100%; 
 }
-.subject > .container > .img-box > img {
+.subject > .container > .img-box > a {
+  width: 100%;
+}
+.subject > .container > .img-box > a > img {
   margin: 0 auto; width: 100%; object-fit: cover;
 }
 /* .subject > .container > .sub-text-box {
